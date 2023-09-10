@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="nav-bar" id="">
+      <div class="logo-container">
+        <img src="./icons/logo.9f7e506d.svg" alt="Logo" />
+      </div>
+      <div class="nav-elements">
+        <span class="nav-span"
+          ><a href="./index.html" onclick="homepage()">Products</a></span
+        >
+        <button class="nav-btn" id="nav-btn">
+          <i class="fas fa-cart-plus">My Cart</i>
+        </button>
+      </div>
+    </section>
+    <section class="your-cart" id="your-cart">
+      <h2>Your <span>Cart</span></h2>
+      <br />
+      <br />
+      <div class="listing-row">
+        <span style="font-weight: 900">PRODUCTS</span>
+        <span style="font-weight: 900">NAME OF PRODUCT</span>
+        <span style="font-weight: 900" class="">PRICE</span>
+        <span style="font-weight: 900" class="">QUANTITY</span>
+        <span style="font-weight: 900">REMOVE</span>
+        <span style="font-weight: 900">TOTAL</span>
+      </div>
+
+      <div class="dynamic-html-structure" id="dynamic-html-structure"></div>
+      <div class="dynamic-html-two"></div>
+    </section>
+    <section class="empty-cart" id="empty-cart">
+      <div class="empty-cart-message">YOUR CART IS CURRENTLY EMPTY</div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
